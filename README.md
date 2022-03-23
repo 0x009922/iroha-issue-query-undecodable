@@ -3,10 +3,13 @@
 ## Steps to reproduce
 
 1. Start Iroha
+
     ```bash
     docker compose up
     ```
+    
 2. Prepare the node package
+
     ```bash
     # Install node v14
 
@@ -23,7 +26,9 @@
     # Install packages
     pnpm i
     ```
+    
 3. Run the script
+
     ```bash
     pnpm run-ts
     ```
