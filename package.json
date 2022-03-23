@@ -1,0 +1,14 @@
+{
+  "name": "iroha-issue-query-undecodable",
+  "private": true,
+  "scripts": {
+    "run-ts": "esno main"
+  },
+  "dependencies": {
+    "@iroha2/client-isomorphic-fetch": "^0.1.0",
+    "@iroha2/data-model": "^1.0.0",
+    "@scale-codec/util": "^1.0.0",
+    "consola": "^2.15.3",
+    "esno": "^0.14.1"
+  }
+}

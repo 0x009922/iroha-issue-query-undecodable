@@ -1,0 +1,70 @@
+{
+  "transactions": [
+    {
+      "isi": [
+        {
+          "Register": {
+            "object": {
+              "Raw": {
+                "Identifiable": {
+                  "Domain": {
+                    "id": {
+                      "name": "wonderland"
+                    },
+                    "accounts": {},
+                    "asset_definitions": {},
+                    "metadata": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Register": {
+            "object": {
+              "Raw": {
+                "Identifiable": {
+                  "NewAccount": {
+                    "id": {
+                      "name": "alice",
+                      "domain_id": {
+                        "name": "wonderland"
+                      }
+                    },
+                    "signatories": [
+                      "ed0120ccfe54ff953ee0ef349d9cccea1742450b63fecf46266c0db68ed47656d5dc40"
+                    ],
+                    "metadata": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Register": {
+            "object": {
+              "Raw": {
+                "Identifiable": {
+                  "NewAccount": {
+                    "id": {
+                      "name": "bob",
+                      "domain_id": {
+                        "name": "wonderland"
+                      }
+                    },
+                    "signatories": [
+                      "ed01209ab2c1fb75ca9ddb662f3f70bf5685673358e4b356efaf5d30d86582f2dc2295"
+                    ],
+                    "metadata": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
