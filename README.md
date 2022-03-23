@@ -32,7 +32,7 @@
 
 Expected to see success log with decoded `VersionedQueryResult`.
 
-## What is actually happens
+## What actually happens
 
 Unable to decode Iroha response. Partial decode trace:
 
